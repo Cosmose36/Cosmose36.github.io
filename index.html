@@ -1,33 +1,146 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-
-        <title>Summer Trips</title>
-
-        <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="styles.css">
-        <title>My Summer Trips</title>
-    </head>
-
-    <body style="background-color:DarkSeaGreen;"">
-
-        <h1>Sebastian's Summer Trips</h1>
-        <hr style="background-color:black;">
-        <img src = "images/europe.jpg">
-        <style> hr {
-        position: relative;
-        top: 9px;
-        border: none;
-        height: 5px;
-        background: black;
-        margin-bottom: 50px;
-    }
-        </style>
-        <!-- Load external JavaScript -->
-        <script src="scripts.js"></script>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+   <meta charset="utf-8">
+<title>Catbook</title>
+    <style>
+      .title{
+        display: inline-block;
+        vertical-align: top;
         
-    </body>
+      }
+      .logo{
+        width:100px;
+      }
+      .catbook {
+        font-size: 80px;
+        font-family: Titillium Web;
+        vertical-align: top;
+      }
+      .seperating-line{
+        border-width: 3px;
+        border: solid;
+        border-color: rgb(27, 116, 228);
+      }
+      .user-name{
+        margin-top: 2px;
+        font-family: Titillium web;
+        font-size:30px;
+        margin-bottom: 2px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .user-profile{
+        width: 200px;
+        vertical-align: top;
+        display: inline-block;
+        margin-right: 40px;
+        border:1px solid gray;
+      }
+      .button{
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(27, 116, 228);
+        border-width: 2px;
+        border-color: white;
+        color: white;
+        font-family: Titillium Web;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        transition: backround-color 5s;
+      }
+      .button:hover{
+        cursor: pointer;
+        border-width: 2px;
+        border: solid;
+        border-color:rgb(27, 116, 228);
+        background-color: white;
+        color:rgb(27, 116, 228);
+      }
+      .button:active{
+        opacity: 0.7;
+
+
+      }
+      .button-m{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(27, 116, 228);
+        border-width: 2px;
+        border-color: white;
+        color: white;
+        font-family: Titillium Web;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        transition: backround-color 5s;
+      }
+      .button-m:hover{
+        cursor: pointer;
+        border-width: 2px;
+        border: solid;
+        border-color:rgb(27, 116, 228);
+        background-color: white;
+        color:rgb(27, 116, 228);
+      }
+      .button-m:active{
+        opacity: 0.7;
+      }
+      .quote{
+        font-size: 80px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+<body>
+  <div class="title">
+<img class="logo" src="images/Facebook-logo(2).jpg">
+<span class="catbook">Catbook</span>
+<span class="quote">"The Site For All Animals"</span>
+</div>
+
+<hr class="seperating-line">
+
+<div class="user-profile">
+  <img src="images/image0 (7).jpeg" width=200px>
+  <p class="user-name"> Jeffrey</p>
+  <button class="button">Friend User</button>
+  <button class="button-m">Message User</button>
+</div>
+
+<div class="user-profile">
+  <img src="images/image1 (1).jpeg" width=200px>
+  <p class="user-name"> Monkey</p>
+  <button class="button">Friend User</button>
+  <button class="button-m">Message User</button>
+</div>
+
+<div class="user-profile">
+  <img src="images/image2 (1).jpeg" width=200px>
+  <p class="user-name"> Astro</p>
+  <button class="button">Friend User</button>
+  <button class="button-m">Message User</button>
+</div>
+
+<div class="user-profile">
+  <img src="images/Luna.jpeg" width=200px>
+  <p class="user-name"> Luna</p>
+  <button class="button">Friend User</button>
+  <button class="button-m">Message User</button>
+</div>
+
+</body>
+
 
 </html>
